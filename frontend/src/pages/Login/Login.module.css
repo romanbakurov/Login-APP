@@ -1,0 +1,12 @@
+@import url('../../assets/style/fonts.css');
+
+body {
+    background-color: var(--background-color);
+}
+
+.error {
+    color: #FF0101;
+    font-family: Comfortaa, sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+}

@@ -1,0 +1,13 @@
+import { useAuth } from '../context/AuthContext.tsx';
+import { Navigate } from 'react-router-dom';
+import type { JSX } from 'react';
+
+export const ProtectedRoute = ({ children }: { children: JSX.Element }) => {
+  const { isAuth } = useAuth();
+
+  if (!isAuth) {
+    return <Navigate to="/login" replace />;
+  }
+
+  return children;
+};

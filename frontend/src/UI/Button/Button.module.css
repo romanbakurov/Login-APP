@@ -1,0 +1,17 @@
+@import url('../../assets/style/fonts.css');
+
+.button {
+    background: var(--primary-color);;
+    border: none;
+    border-radius: 5px;
+    color: var(--text-color);
+    font-family: Comfortaa, sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    height: 40px;
+    width: 40%;
+}
+
+.button:hover {
+    background: var(--primary-hover-color);
+}

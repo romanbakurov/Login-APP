@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.img {
+    padding-right: 5px;
+    width: 24px;
+}
+
+.logo {
+    align-items: center;
+    color: var(--logo-color);
+    display: flex;
+    font-family: Montserrat, sans-serif;
+    font-size: 32px ;
+    font-weight: 500;
+    justify-content: center;
+}
