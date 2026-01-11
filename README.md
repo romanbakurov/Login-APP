@@ -35,8 +35,6 @@ Login-APP/
 - JavaScript / TypeScript
 - (React / Vite — if applicable)
 
-> Update this section if you add or change technologies.
-
 ## 🛠️ Installation & Setup
 ### 1. Clone the repository
 ```bash
