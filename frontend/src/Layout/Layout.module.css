@@ -1,0 +1,21 @@
+.layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+.layout > aside {
+    flex-shrink: 0;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.content {
+    background: var(--background-color);
+    flex: 1;
+    padding: 24px;
+}

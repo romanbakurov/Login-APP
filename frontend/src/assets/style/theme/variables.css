@@ -1,6 +1,8 @@
 :root {
     --background-color: #fff;
-    --text-color: #000;
+    --background-color-page: #fff;
+    --text-color: #fff;
+    --text-button-color: #000;
     --primary-color: #7868FE;
     --error-color: #F44336;
     --input-background: #f3f4f6;
@@ -9,4 +11,9 @@
     --logo-color: #fff;
     --border-bottom-colors: #777;
     --text-input-color: #fff;
+    --font: comfortaa;
+    --font-logo: montserrat;
+    --shadow-sm: 0 1px 3px rgb(0 0 0 / 8%);
+    --shadow-md: 0 4px 12px rgb(0 0 0 / 10%);
+    --shadow-lg: 0 10px 30px rgb(0 0 0 / 12%);
 }

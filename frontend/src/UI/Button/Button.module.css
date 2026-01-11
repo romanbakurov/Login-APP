@@ -1,10 +1,10 @@
 @import url('../../assets/style/fonts.css');
 
 .button {
-    background: var(--primary-color);;
+    background: var(--primary-color);
     border: none;
     border-radius: 5px;
-    color: var(--text-color);
+    color: var(--text-button-color);
     font-family: Comfortaa, sans-serif;
     font-size: 14px;
     font-weight: 200;

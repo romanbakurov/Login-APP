@@ -7,6 +7,8 @@ import { Input } from '../../UI/Input/Input.tsx';
 import { Button } from '../../UI/Button/Button.tsx';
 import { useAuth } from '../../context/AuthContext.tsx';
 import { Form } from '../../UI/Form/Form.tsx';
+import Logotype from '../../assets/images/Logotype.svg';
+import { Logo } from '../../UI/Logo/Logo.tsx';
 
 export const Login = () => {
   const [email, setEmail] = useState('');
@@ -44,6 +46,13 @@ export const Login = () => {
   return (
     <>
       <Form onSubmit={onClickHandler}>
+        <Logo
+          className={S.logo}
+          src={Logotype}
+          text="APP"
+          alt="Logo"
+          onClick={() => navigate('/')}
+        />
         <Input
           type="text"
           name="email"

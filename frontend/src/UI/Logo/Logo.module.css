@@ -1,8 +1,8 @@
 .container {
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 5%;
 }
 
 .img {
@@ -13,9 +13,11 @@
 .logo {
     align-items: center;
     color: var(--logo-color);
+    cursor: pointer;
     display: flex;
-    font-family: Montserrat, sans-serif;
+    font-family: var(--font-logo), serif;
     font-size: 32px ;
     font-weight: 500;
+    gap: 10px;
     justify-content: center;
 }

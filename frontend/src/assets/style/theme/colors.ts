@@ -1,6 +1,8 @@
 export const lightTheme = {
   'background-color': '#ffffff',
-  'text-color': '#fff',
+  'background-color-page': '#FAFAFA',
+  'text-color': '#000',
+  'text-button-color': '#fff',
   'primary-color': '#7868FE',
   'error-color': '#F44336',
   'input-background': '#f3f4f6',
@@ -13,7 +15,9 @@ export const lightTheme = {
 
 export const darkTheme = {
   'background-color': '#1D1F38',
-  'text-color': '#000',
+  'background-color-page': '#DBDFE4',
+  'text-color': '#fff',
+  'text-button-color': '#000',
   'primary-color': '#CDCDFF',
   'error-color': '#f87171',
   'input-background': '#1f1f1f',

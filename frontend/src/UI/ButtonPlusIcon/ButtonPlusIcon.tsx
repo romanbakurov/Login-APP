@@ -1,5 +1,5 @@
+import T from './ButtonPlusIcon.module.css';
 import * as React from 'react';
-import B from './Button.module.css';
 
 type ButtonProps = {
   onClick?: () => void;
@@ -7,24 +7,27 @@ type ButtonProps = {
   children: React.ReactNode;
   type?: 'button' | 'submit' | 'reset';
   className?: string;
+  icon?: React.ElementType;
 };
 
-export const Button = ({
+export const ButtonPlusIcon = ({
   onClick,
   disabled,
   children,
   type = 'button',
   className = '',
+  icon: Icon,
 }: ButtonProps) => {
   return (
     <>
       <button
         onClick={onClick}
         disabled={disabled}
-        className={`${B.button} ${className}`}
+        className={`${T.button} ${className ?? ''}`}
         type={type}
       >
-        {children}
+        {Icon && <Icon className={T.icon} />}
+        <span className={T.text}>{children}</span>
       </button>
     </>
   );

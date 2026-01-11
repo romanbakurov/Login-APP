@@ -1,0 +1,21 @@
+.container {
+    align-items: center;
+    background-color: var(--background-color);
+    box-shadow: var(--shadow-sm);
+    display: flex;
+    height: 60px;
+    justify-content: flex-end;
+}
+
+.logout {
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.smallMenu {
+    display: flex;
+    gap: 10px;
+    padding-right: 20px;
+}

@@ -1,0 +1,84 @@
+.sidebar {
+    background: var(--background-color);
+    box-shadow: 1px 0 3px rgb(0 0 0 / 8%);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    transition: width 0.3s ease;
+    width: 200px;
+}
+
+.collapsed {
+    width: 64px;
+}
+
+.logo {
+    padding: 20px;
+}
+
+.logo span {
+    transition: opacity 0.2s ease, width 0.2s ease;
+}
+
+.collapsed .logo span {
+    opacity: 0;
+    width: 0;
+}
+
+.nav {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav a {
+    align-items: center;
+    color: var(--text-color);
+    display: flex;
+    font-family: var(--font), serif;
+    font-size: 14px;
+    font-weight: 300;
+    gap: 12px;
+    padding: 12px 0;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.nav a:hover {
+    color: var(--primary-color);
+}
+
+.navIcon {
+    flex-shrink: 0;
+    height: 20px;
+    width: 20px;
+}
+
+.nav a span {
+    transition: opacity 0.2s ease, width 0.2s ease;
+    white-space: nowrap;
+}
+
+.collapsed .nav a {
+    gap: 0;
+}
+
+.toggle {
+    font-size: 14px;
+    font-weight: 300;
+    gap: 16px;
+    padding: 12px 0;
+}
+
+.secondPart {
+    padding-top: 20px;
+}
+
+.version {
+    color: var(--text-color);
+    font-size: 12px;
+    font-weight: 200;
+    padding: 20px 0 0;
+}
