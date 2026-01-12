@@ -2,13 +2,13 @@
     align-items: center;
     background: none;
     border: none;
+    color: var(--text-color);
     cursor: pointer;
     display: flex;
     transition: color 0.2s, fill 0.2s;
 }
 
 .icon {
-    color: var(--primary-color);
     height: 16px;
     width: 16px;
 }

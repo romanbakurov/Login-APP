@@ -3,15 +3,22 @@
     background-color: var(--background-color);
     box-shadow: var(--shadow-sm);
     display: flex;
-    height: 60px;
+    height: 50px;
     justify-content: flex-end;
 }
 
 .logout {
     align-items: center;
+    color: var(--primary-color);
     display: flex;
+    font-size: 14px;
+    font-weight: 300;
     gap: 5px;
     justify-content: center;
+}
+
+.logout:hover {
+    color: var(--primary-hover-color);
 }
 
 .smallMenu {
