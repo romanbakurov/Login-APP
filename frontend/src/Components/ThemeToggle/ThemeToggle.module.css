@@ -1,0 +1,10 @@
+.toggle {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 300;
+    gap: 8px;
+}
+
+.toggle:hover {
+    color: var(--primary-hover-color);
+}
