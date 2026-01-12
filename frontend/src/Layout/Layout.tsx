@@ -1,5 +1,5 @@
-import { SideBar } from '../Components/SideBar/SideBar.tsx';
-import { Header } from '../Components/Header/Header.tsx';
+import { SideBar } from './components/SideBar/SideBar.tsx';
+import { Header } from './components/Header/Header.tsx';
 import { Outlet } from 'react-router-dom';
 import S from './Layout.module.css';
 
