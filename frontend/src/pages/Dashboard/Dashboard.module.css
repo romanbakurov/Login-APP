@@ -1,6 +1,16 @@
-.page {
-    color: var(--text-color);
-    height: 100%;
-    margin: 0;
-    padding: 0;
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content {
+    display: flex;
+    gap: 20px;
 }
